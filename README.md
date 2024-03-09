@@ -1,11 +1,15 @@
-# Scoop Bucket Template
+# Nemo's Scoop Bucket
+
+Collections of Nemo's binaries on Windows, installable using Scoop.
+
+## Scoop Bucket Template
 
 <!-- Uncomment the following line after replacing placeholders -->
 <!-- [![Tests](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml) [![Excavator](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml) -->
 
 Template bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 
-## How do I use this template?
+### How do I use this template?
 
 1. Generate your own copy of this repository with the "Use this template"
    button.
@@ -25,7 +29,7 @@ Template bucket for [Scoop](https://scoop.sh), the Windows command-line installe
 8. If you'd like your bucket to be indexed on `https://scoop.sh`, add the
    topic `scoop-bucket` to your repository.
 
-## How do I install these manifests?
+### How do I install these manifests?
 
 After manifests have been committed and pushed, run the following:
 
@@ -34,7 +38,7 @@ scoop bucket add <bucketname> https://github.com/<username>/<bucketname>
 scoop install <bucketname>/<manifestname>
 ```
 
-## How do I contribute new manifests?
+### How do I contribute new manifests?
 
 To make a new manifest contribution, please read the [Contributing
 Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md)
