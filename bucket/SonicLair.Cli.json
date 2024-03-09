@@ -1,18 +1,18 @@
 {
     "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "A terminal music client for subsonic compatible music servers.",
     "homepage": "https://github.com/xiongnemo/SonicLair.Cli",
     "license": "MIT",
     "notes": "no support for persisting config through scoop",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xiongnemo/SonicLair.Cli/releases/download/v1.0.0/SonicLair.Cli-v1.0.0-win-x64.zip",
-            "hash": ""
+            "url": "https://github.com/xiongnemo/SonicLair.Cli/releases/download/v1.1.0/SonicLair.Cli-v1.1.0-win-x64.zip",
+            "hash": "7bcc63ed66371d2db30dc126a58455ca3e66c8ba26cc4d519c53569730119d9f"
         },
         "32bit": {
-            "url": "https://github.com/xiongnemo/SonicLair.Cli/releases/download/v1.0.0/SonicLair.Cli-v1.0.0-win-x86.zip",
-            "hash": ""
+            "url": "https://github.com/xiongnemo/SonicLair.Cli/releases/download/v1.1.0/SonicLair.Cli-v1.1.0-win-x86.zip",
+            "hash": "6dbdf0d78f0659c17f8efadbe3f491b8f67658f057e47d8cab58bfc05ddef6ed"
         }
     },
     "bin": "SonicLair.Cli.exe",
