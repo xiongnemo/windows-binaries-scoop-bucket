@@ -1,7 +1,13 @@
 on:
+  # A publishing repository dispatches this directly so a release reaches the
+  # bucket in minutes rather than on the next sweep. The cron below stays as the
+  # safety net for anything that cannot dispatch, and for releases published by
+  # hand.
   workflow_dispatch:
   schedule:
-    # run every 4 hours
+    # Hourly. A sweep only ever packages whichever release is newest when it
+    # fires, and GitHub runs these late -- 32 to 52 minutes past the hour, here
+    # -- so anything published between two sweeps is skipped rather than queued.
     - cron: '0 */1 * * *'
 name: Excavator
 jobs:
