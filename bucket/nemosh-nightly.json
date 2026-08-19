@@ -1,5 +1,5 @@
 {
-    "version": "0.1.101-master-ca1324ec0d0e",
+    "version": "0.1.103-master-960c8a8b526d",
     "description": "A native Windows-first, BusyBox-style POSIX shell and utility bundle. Nightly build from master.",
     "homepage": "https://github.com/xiongnemo/nemosh",
     "license": "Apache-2.0",
@@ -10,9 +10,9 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xiongnemo/nemosh/releases/download/v0.1.101-master-ca1324ec0d0e/nemosh-v0.1.101-master-ca1324ec0d0e-windows-amd64.zip",
-            "hash": "ecb11be4c4a0ff789070351beebf1dae2c00601913f0faaab5bda4f7559d6f64",
-            "extract_dir": "nemosh-v0.1.101-master-ca1324ec0d0e-windows-amd64"
+            "url": "https://github.com/xiongnemo/nemosh/releases/download/v0.1.103-master-960c8a8b526d/nemosh-v0.1.103-master-960c8a8b526d-windows-amd64.zip",
+            "hash": "8781d1777b4a54f278cb2675b6feda5a6856ff51e7aa1a7d9b9e7f4fc9f1a49a",
+            "extract_dir": "nemosh-v0.1.103-master-960c8a8b526d-windows-amd64"
         }
     },
     "bin": "nemosh.exe",
