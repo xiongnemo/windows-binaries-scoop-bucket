@@ -1,5 +1,5 @@
 {
-    "version": "0.1.28-dev-4808277b9218",
+    "version": "0.1.34-dev-b2b5e2d601b6",
     "description": "A Telegram TUI client for the terminal, with folders, media previews, reactions, and compose suggestions.",
     "homepage": "https://github.com/xiongnemo/Tsumugi",
     "license": "Unknown",
@@ -13,12 +13,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xiongnemo/Tsumugi/releases/download/v0.1.28-dev-4808277b9218/tsumugi_v0.1.28-dev-4808277b9218_windows_amd64.zip",
-            "hash": "d1ec08c1bed42ce94e011ec2c412e5f8d9571b5e4056cdf8e46e00173b60030f"
+            "url": "https://github.com/xiongnemo/Tsumugi/releases/download/v0.1.34-dev-b2b5e2d601b6/tsumugi_v0.1.34-dev-b2b5e2d601b6_windows_amd64.zip",
+            "hash": "d2d57ca41890dae892d74548432d1edafe919008bfc9b2cbbe10cf6fc2344732"
         },
         "arm64": {
-            "url": "https://github.com/xiongnemo/Tsumugi/releases/download/v0.1.28-dev-4808277b9218/tsumugi_v0.1.28-dev-4808277b9218_windows_arm64.zip",
-            "hash": "eea9fc70357e14f7ee3a869c943c0e99f93132e12a89ce66eaab730b210940ac"
+            "url": "https://github.com/xiongnemo/Tsumugi/releases/download/v0.1.34-dev-b2b5e2d601b6/tsumugi_v0.1.34-dev-b2b5e2d601b6_windows_arm64.zip",
+            "hash": "23dc76dc1fbad9cafdbfcc9a5dded5741754fdde39a7c5ea5a0f98bceee8f677"
         }
     },
     "bin": "tsumugi.exe",
