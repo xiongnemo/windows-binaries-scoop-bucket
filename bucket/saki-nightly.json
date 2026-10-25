@@ -1,21 +1,21 @@
 {
-    "version": "0.0.65-dev-4ad8b0edf31f",
+    "version": "0.0.66-dev-dac8142554dc",
     "description": "A cross-platform terminal music player for subsonic compatible music servers.",
     "homepage": "https://github.com/xiongnemo/Saki",
     "license": "Unknown",
     "notes": "Windows release builds extract the embedded SMTC shim to %LOCALAPPDATA%\\Saki\\smtc.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xiongnemo/Saki/releases/download/v0.0.65-dev-4ad8b0edf31f/saki-v0.0.65-dev-4ad8b0edf31f-windows-amd64.zip",
-            "hash": "22c563e4618b3d4826952934d239dd2df02fdbc2d8a048c806869f2437095aa9"
+            "url": "https://github.com/xiongnemo/Saki/releases/download/v0.0.66-dev-dac8142554dc/saki-v0.0.66-dev-dac8142554dc-windows-amd64.zip",
+            "hash": "b4e9391abdc10ff14df3ab00b5230c967cd324d296ce419c53cca42f7c6b2ba9"
         },
         "32bit": {
-            "url": "https://github.com/xiongnemo/Saki/releases/download/v0.0.65-dev-4ad8b0edf31f/saki-v0.0.65-dev-4ad8b0edf31f-windows-i686.zip",
-            "hash": "7b1b8b0fe492de1ab7d869892938192ca8ff4ff917aa852d887ed21720c39917"
+            "url": "https://github.com/xiongnemo/Saki/releases/download/v0.0.66-dev-dac8142554dc/saki-v0.0.66-dev-dac8142554dc-windows-i686.zip",
+            "hash": "3892730bf5bea9dd79708cd02bc842d2c433a4b2ba00589e3cb5b5d002251cbb"
         },
         "arm64": {
-            "url": "https://github.com/xiongnemo/Saki/releases/download/v0.0.65-dev-4ad8b0edf31f/saki-v0.0.65-dev-4ad8b0edf31f-windows-arm64.zip",
-            "hash": "5a28df44a1f9d37820ea104ab0eb9467fff96be9f91242187650bd6d2d41654f"
+            "url": "https://github.com/xiongnemo/Saki/releases/download/v0.0.66-dev-dac8142554dc/saki-v0.0.66-dev-dac8142554dc-windows-arm64.zip",
+            "hash": "2354520ac1b4c6363b4b82fd02bc9e0dbe4f9b1875fb79fd02a7395a5e543a1d"
         }
     },
     "bin": "saki.exe",
