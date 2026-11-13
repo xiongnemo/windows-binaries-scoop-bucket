@@ -1,0 +1,35 @@
+{
+    "version": "0.0.1",
+    "description": "Routing-table proxy shell with multi-hop chains: compiles a readable profile into mihomo, xray or sing-box configuration, with a Web UI, a TUI and a browser extension. Tracks every prerelease.",
+    "homepage": "https://github.com/xiongnemo/conch",
+    "license": "Unknown",
+    "notes": [
+        "Run 'conch init <subscription URL>' to write a profile, then 'conch daemon', and open http://127.0.0.1:9277/ or run 'conch tui'. The kernels are downloaded and verified on first use.",
+        "An example profile is in $dir\\examples\\profile.yaml."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/xiongnemo/conch/releases/download/v0.0.1/conch_0.0.1_windows_amd64.zip",
+            "hash": "4dfeeacd43d4ddf95860f8337e16517c1131d4e99320e37aee139952a2165f30"
+        },
+        "arm64": {
+            "url": "https://github.com/xiongnemo/conch/releases/download/v0.0.1/conch_0.0.1_windows_arm64.zip",
+            "hash": "9275bbb8bcd03ba3da083fe08af2cb7aca6c966ac638fa559a115766b5ec1c35"
+        }
+    },
+    "bin": "conch.exe",
+    "checkver": {
+        "url": "https://api.github.com/repos/xiongnemo/conch/releases",
+        "regex": "(?s)\"tag_name\":\\s*\"v(?<version>[^\"]+)\"(?:(?!\"tag_name\").)*?\"prerelease\":\\s*true(?:(?!\"tag_name\").)*?\"name\":\\s*\"conch_\\k<version>_windows_amd64\\.zip\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/xiongnemo/conch/releases/download/v$version/conch_$version_windows_amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/xiongnemo/conch/releases/download/v$version/conch_$version_windows_arm64.zip"
+            }
+        }
+    }
+}
