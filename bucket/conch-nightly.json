@@ -1,5 +1,5 @@
 {
-    "version": "0.0.17-main-eaf5d3b3f016",
+    "version": "0.0.22-main-1dad105b6586",
     "description": "Routing-table proxy shell with multi-hop chains: compiles a readable profile into mihomo, xray or sing-box configuration, with a Web UI, a TUI and a browser extension. Tracks every prerelease.",
     "homepage": "https://github.com/xiongnemo/conch",
     "license": "Unknown",
@@ -9,12 +9,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xiongnemo/conch/releases/download/v0.0.17-main-eaf5d3b3f016/conch_0.0.17-main-eaf5d3b3f016_windows_amd64.zip",
-            "hash": "f491e277bed3f8b18f626318c1d0d389c7bc4a191e1b38b5dba80f93b471fdb9"
+            "url": "https://github.com/xiongnemo/conch/releases/download/v0.0.22-main-1dad105b6586/conch_0.0.22-main-1dad105b6586_windows_amd64.zip",
+            "hash": "77cfe34089a92fc2673f2c0964a619c2244f1ecd3e3e7844c95bdf9f2b93997d"
         },
         "arm64": {
-            "url": "https://github.com/xiongnemo/conch/releases/download/v0.0.17-main-eaf5d3b3f016/conch_0.0.17-main-eaf5d3b3f016_windows_arm64.zip",
-            "hash": "75b10e2096351120fd2fe442b87758fe2be6a0d37a2fbd6732d369c719272627"
+            "url": "https://github.com/xiongnemo/conch/releases/download/v0.0.22-main-1dad105b6586/conch_0.0.22-main-1dad105b6586_windows_arm64.zip",
+            "hash": "29544e2c355d7f76b5d5fe6f57f36dd8d3dd49b5869321d4e127390d9befc6a8"
         }
     },
     "bin": "conch.exe",
