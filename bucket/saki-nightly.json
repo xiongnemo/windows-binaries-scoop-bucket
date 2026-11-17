@@ -20,7 +20,11 @@
     },
     "bin": "saki.exe",
     "checkver": {
-        "url": "https://api.github.com/repos/xiongnemo/Saki/releases",
+        "script": [
+            "$headers = @{ Accept = 'application/vnd.github+json' }",
+            "if ($token = Get-GitHubToken) { $headers.Authorization = \"token $token\" }",
+            "(Invoke-WebRequest -UseBasicParsing -Headers $headers -Uri 'https://api.github.com/repos/xiongnemo/Saki/releases').Content"
+        ],
         "regex": "(?s)\"tag_name\":\\s*\"v(?<version>[^\"]+-dev-[0-9a-f]+)\"(?:(?!\\\"tag_name\\\").)*?\"name\":\\s*\"saki-v\\k<version>-windows-amd64\\.zip\""
     },
     "autoupdate": {

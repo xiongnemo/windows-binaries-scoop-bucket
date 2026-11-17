@@ -37,7 +37,11 @@
         }
     },
     "checkver": {
-        "url": "https://api.github.com/repos/xiongnemo/nermius/releases",
+        "script": [
+            "$headers = @{ Accept = 'application/vnd.github+json' }",
+            "if ($token = Get-GitHubToken) { $headers.Authorization = \"token $token\" }",
+            "(Invoke-WebRequest -UseBasicParsing -Headers $headers -Uri 'https://api.github.com/repos/xiongnemo/nermius/releases').Content"
+        ],
         "regex": "\"tag_name\":\\s*\"v(?<version>[^\"]+-dev-[0-9a-f]+)\""
     },
     "autoupdate": {
