@@ -5,7 +5,9 @@
     "license": "Unknown",
     "notes": [
         "Run 'conch init <subscription URL>' to write a profile, then 'conch daemon', and open http://127.0.0.1:9277/ or run 'conch tui'. The kernels are downloaded and verified on first use.",
-        "An example profile is in $dir\\examples\\profile.yaml."
+        "An example profile is in $dir\\examples\\profile.yaml.",
+        "conch keeps the profile and .env in %USERPROFILE%\\.config\\conch, kernels, geodata, subscriptions, rule lists and pairings in %USERPROFILE%\\.local\\share\\conch, and state and logs in %USERPROFILE%\\.local\\state\\conch (the XDG_* variables move them).",
+        "Files from versions before 0.0.33 in %APPDATA%\\conch and %LOCALAPPDATA%\\conch keep working from there; stop the daemon, then run 'conch migrate --dry-run' and 'conch migrate' to move them."
     ],
     "architecture": {
         "64bit": {
