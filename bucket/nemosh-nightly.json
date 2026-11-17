@@ -13,6 +13,16 @@
             "url": "https://github.com/xiongnemo/nemosh/releases/download/v1.4.107-master-56841c596ca5/nemosh-v1.4.107-master-56841c596ca5-windows-amd64.zip",
             "hash": "e1d928dc450ee8d2f13ad2d83acf8578fc3fdb80f474985f2054fbeb49448ef6",
             "extract_dir": "nemosh-v1.4.107-master-56841c596ca5-windows-amd64"
+        },
+        "32bit": {
+            "url": "https://github.com/xiongnemo/nemosh/releases/download/v1.4.107-master-56841c596ca5/nemosh-v1.4.107-master-56841c596ca5-windows-386.zip",
+            "hash": "b4256c55f6ae9de387acec7e2cdbe749d00729910026453b6661ca315a37e85c",
+            "extract_dir": "nemosh-v1.4.107-master-56841c596ca5-windows-386"
+        },
+        "arm64": {
+            "url": "https://github.com/xiongnemo/nemosh/releases/download/v1.4.107-master-56841c596ca5/nemosh-v1.4.107-master-56841c596ca5-windows-arm64.zip",
+            "hash": "1e042813e60ef8a4792979a57bd6cd2812f8e052d0b8e7ff666a5cccee161627",
+            "extract_dir": "nemosh-v1.4.107-master-56841c596ca5-windows-arm64"
         }
     },
     "bin": "nemosh.exe",
@@ -25,6 +35,14 @@
             "64bit": {
                 "url": "https://github.com/xiongnemo/nemosh/releases/download/v$version/nemosh-v$version-windows-amd64.zip",
                 "extract_dir": "nemosh-v$version-windows-amd64"
+            },
+            "32bit": {
+                "url": "https://github.com/xiongnemo/nemosh/releases/download/v$version/nemosh-v$version-windows-386.zip",
+                "extract_dir": "nemosh-v$version-windows-386"
+            },
+            "arm64": {
+                "url": "https://github.com/xiongnemo/nemosh/releases/download/v$version/nemosh-v$version-windows-arm64.zip",
+                "extract_dir": "nemosh-v$version-windows-arm64"
             }
         }
     }
