@@ -4,8 +4,9 @@
     "homepage": "https://github.com/xiongnemo/ruijie-sslvpn-socks5",
     "license": "Unknown",
     "notes": [
-        "Copy $dir\\config.yaml.example somewhere of your own, fill in vpn.server, vpn.username and vpn.password, and run: rj-socks -config <that file>",
-        "Choosing 'always trust' for a self-signed gateway certificate writes its fingerprint back into that config file, so keep it outside the app directory."
+        "Copy $dir\\config.yaml.example to %USERPROFILE%\\.config\\rj-socks\\config.yaml (or %XDG_CONFIG_HOME%\\rj-socks\\config.yaml), fill in vpn.server, vpn.username and vpn.password, and run: rj-socks",
+        "Upgrading with a config.yaml kept elsewhere: run 'rj-socks migrate -dry-run -from <that file>' to see the move, then without -dry-run; or keep passing -config <that file>.",
+        "Choosing 'always trust' for a self-signed gateway certificate writes its fingerprint back into the config file."
     ],
     "architecture": {
         "64bit": {

@@ -3,7 +3,10 @@
     "description": "Portable SSH manager with a local encrypted SQLite vault.",
     "homepage": "https://github.com/xiongnemo/nermius",
     "license": "Unknown",
-    "notes": "User data is stored in %APPDATA%\\nermius and %LOCALAPPDATA%\\nermius.",
+    "notes": [
+        "The vault and keychain enrollment are stored in %USERPROFILE%\\.local\\share\\nermius (or %XDG_DATA_HOME%\\nermius).",
+        "Data left by older versions in %USERPROFILE%\\.nermius, %APPDATA%\\nermius or %LOCALAPPDATA%\\nermius keeps working from there; quit nermius and run 'nermius migrate --dry-run', then 'nermius migrate', to move it."
+    ],
     "architecture": {
         "64bit": {
             "url": "https://github.com/xiongnemo/nermius/releases/download/v0.0.39-dev-02a89ac43d86/nermius-windows-amd64.tar.gz",
