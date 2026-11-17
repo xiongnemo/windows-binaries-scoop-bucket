@@ -6,7 +6,9 @@
     "notes": [
         "First launch opens an onboarding wizard for the Telegram API ID/hash and login. Create credentials at https://my.telegram.org/apps.",
         "ffmpeg is optional and detected in PATH at runtime -- there is nothing to configure. Without it, GIF, MP4 and WebM messages fall back to a text label such as '[GIF] 3s (cached; press O to open)' instead of a picture, and inline animation never starts even if you enable it. Photos and stickers decode in pure Go and are unaffected.",
-        "Inline GIF/MP4/WebM animation is off by default; turn it on in Settings (? -> General)."
+        "Inline GIF/MP4/WebM animation is off by default; turn it on in Settings (? -> General).",
+        "Tsumugi keeps its database and Telegram sessions in %USERPROFILE%\\.local\\share\\tsumugi, its media cache in %USERPROFILE%\\.cache\\tsumugi and debug logs in %USERPROFILE%\\.local\\state\\tsumugi (the XDG_* variables move them).",
+        "Builds before v0.1.69 kept everything in %LOCALAPPDATA%\\tsumugi; that keeps working, and 'tsumugi migrate --dry-run', then 'tsumugi migrate' with Tsumugi closed, moves it."
     ],
     "suggest": {
         "Inline GIF/MP4/WebM animation": "main/ffmpeg"
