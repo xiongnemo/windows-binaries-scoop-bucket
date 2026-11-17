@@ -6,7 +6,8 @@
     "notes": [
         "This is a prerelease built from master. For the stable line install nemosh instead.",
         "nemosh is a multicall binary: only the nemosh shim is installed, because two of its applets would shadow Windows commands of the same name and different meaning -- find.exe takes a literal string and a file, and sort.exe is not POSIX sort.",
-        "Run 'nemosh --list' to see the bundled applets, and 'nemosh --help' for the command line."
+        "Run 'nemosh --list' to see the bundled applets, and 'nemosh --help' for the command line.",
+        "History is kept in %USERPROFILE%\\.local\\state\\nemosh\\nemosh_history and completion specs in %USERPROFILE%\\.config\\nemosh\\completions (the XDG_* variables move them); ~/.nemoshrc stays where it is. An older ~/.nemosh_history or %APPDATA%\\nemosh\\completions keeps working; with other nemosh windows closed, 'nemosh --migrate --dry-run', then 'nemosh --migrate', moves them."
     ],
     "architecture": {
         "64bit": {
