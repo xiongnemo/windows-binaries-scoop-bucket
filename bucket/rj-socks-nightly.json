@@ -1,5 +1,5 @@
 {
-    "version": "1.0.1-dev-5df1ba56333f",
+    "version": "1.0.4-dev-e80962a2ed02",
     "description": "Ruijie SSL VPN (RG-SSLVPN) as a local SOCKS5 proxy, without a TUN device or route changes. Tracks the dev branch's prereleases.",
     "homepage": "https://github.com/xiongnemo/ruijie-sslvpn-socks5",
     "license": "Unknown",
@@ -9,16 +9,16 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xiongnemo/ruijie-sslvpn-socks5/releases/download/v1.0.1-dev-5df1ba56333f/rj-socks_v1.0.1-dev-5df1ba56333f_windows_amd64.zip",
-            "hash": "e0bff7571bd3d6cee5678e0fc0caeec1d3bc58cd86aed3096e4febfd536aeda8"
+            "url": "https://github.com/xiongnemo/ruijie-sslvpn-socks5/releases/download/v1.0.4-dev-e80962a2ed02/rj-socks_v1.0.4-dev-e80962a2ed02_windows_amd64.zip",
+            "hash": "51a23a7c4625a95747a4f1d2b426d7fbe0ad783775fa0d7a7e6c155fec051bf8"
         },
         "32bit": {
-            "url": "https://github.com/xiongnemo/ruijie-sslvpn-socks5/releases/download/v1.0.1-dev-5df1ba56333f/rj-socks_v1.0.1-dev-5df1ba56333f_windows_386.zip",
-            "hash": "d891ce4ae5d9075ba03dccc6d5eed1f6e045051757ead188bbb2e87df642342d"
+            "url": "https://github.com/xiongnemo/ruijie-sslvpn-socks5/releases/download/v1.0.4-dev-e80962a2ed02/rj-socks_v1.0.4-dev-e80962a2ed02_windows_386.zip",
+            "hash": "e7cb3f49c47f8b6982485b00b5ef74c31a8b844e8118e18af513baf47aadbde6"
         },
         "arm64": {
-            "url": "https://github.com/xiongnemo/ruijie-sslvpn-socks5/releases/download/v1.0.1-dev-5df1ba56333f/rj-socks_v1.0.1-dev-5df1ba56333f_windows_arm64.zip",
-            "hash": "843b3095ab263c75f0538d9270c074a296583091e008343d3a7cf4a8a73e2cc0"
+            "url": "https://github.com/xiongnemo/ruijie-sslvpn-socks5/releases/download/v1.0.4-dev-e80962a2ed02/rj-socks_v1.0.4-dev-e80962a2ed02_windows_arm64.zip",
+            "hash": "f494bb5f8f49b6197fe617f58bf3e835e44d882e1121320c2a784aaa6083d72b"
         }
     },
     "bin": "rj-socks.exe",
