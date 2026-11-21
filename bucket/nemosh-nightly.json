@@ -1,5 +1,5 @@
 {
-    "version": "1.6.123-master-3963619e5858",
+    "version": "1.6.124-master-76b5b46066f6",
     "description": "A native Windows-first, BusyBox-style POSIX shell and utility bundle. Nightly build from master.",
     "homepage": "https://github.com/xiongnemo/nemosh",
     "license": "Apache-2.0",
@@ -12,19 +12,19 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xiongnemo/nemosh/releases/download/v1.6.123-master-3963619e5858/nemosh-v1.6.123-master-3963619e5858-windows-amd64.zip",
-            "hash": "83d53c802c8fcc1273ba2fc05e99d0d0b7451f243a1e3483330b015f4667ace3",
-            "extract_dir": "nemosh-v1.6.123-master-3963619e5858-windows-amd64"
+            "url": "https://github.com/xiongnemo/nemosh/releases/download/v1.6.124-master-76b5b46066f6/nemosh-v1.6.124-master-76b5b46066f6-windows-amd64.zip",
+            "hash": "684dd5a0b92c5f31727b762c64a10391d8a3f4dc3de2582209db49e5398c3ca8",
+            "extract_dir": "nemosh-v1.6.124-master-76b5b46066f6-windows-amd64"
         },
         "32bit": {
-            "url": "https://github.com/xiongnemo/nemosh/releases/download/v1.6.123-master-3963619e5858/nemosh-v1.6.123-master-3963619e5858-windows-386.zip",
-            "hash": "3519c78c094501bdc8424b5712b683232c83995b6603ca96dc63239de2e46e5b",
-            "extract_dir": "nemosh-v1.6.123-master-3963619e5858-windows-386"
+            "url": "https://github.com/xiongnemo/nemosh/releases/download/v1.6.124-master-76b5b46066f6/nemosh-v1.6.124-master-76b5b46066f6-windows-386.zip",
+            "hash": "a0e8e5de19d7cd214892f6a9b817715a35e14f72f586eed91397913e20b044ac",
+            "extract_dir": "nemosh-v1.6.124-master-76b5b46066f6-windows-386"
         },
         "arm64": {
-            "url": "https://github.com/xiongnemo/nemosh/releases/download/v1.6.123-master-3963619e5858/nemosh-v1.6.123-master-3963619e5858-windows-arm64.zip",
-            "hash": "9e81f64d2a1429ed685c9440934f413f840faec73f0bb36bf00310de530c6a43",
-            "extract_dir": "nemosh-v1.6.123-master-3963619e5858-windows-arm64"
+            "url": "https://github.com/xiongnemo/nemosh/releases/download/v1.6.124-master-76b5b46066f6/nemosh-v1.6.124-master-76b5b46066f6-windows-arm64.zip",
+            "hash": "ade96d34e84c55a0adb175b207d5652497fb7d3a00c98db3c523be7435ad641a",
+            "extract_dir": "nemosh-v1.6.124-master-76b5b46066f6-windows-arm64"
         }
     },
     "bin": "nemosh.exe",
