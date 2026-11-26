@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1",
+    "version": "0.0.3-main-48ee9306fd14",
     "description": "Lightweight native Windows terminal: PuTTY's pterm with ConPTY built in. Nightly build from main.",
     "homepage": "https://github.com/xiongnemo/nemoterm",
     "license": "MIT",
@@ -11,8 +11,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xiongnemo/nemoterm/releases/download/v0.0.1/nemoterm-v0.0.1-windows-amd64.zip",
-            "hash": "d974dcaccfdc16842d7db2b5b200372d392613fd3c579b4ceee05345e94b528b"
+            "url": "https://github.com/xiongnemo/nemoterm/releases/download/v0.0.3-main-48ee9306fd14/nemoterm-v0.0.3-main-48ee9306fd14-windows-amd64.zip",
+            "hash": "cba4f29910f9db77f7df98290a2162d61cde760ca92cfd876e55ae75327c8c7c"
         }
     },
     "bin": [
